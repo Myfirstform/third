@@ -1,66 +1,83 @@
-.main{
+/* CSS for 3rd.html */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.main {
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(to top, rgba(62, 62, 209, 0.5)50%,rgb(35, 46, 75))50%;
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(62, 62, 209, 0.5) 50%, rgb(35, 46, 75) 50%);
     background-position: center;
     background-size: cover;
-}
-.head{
-    padding-top: 55px;
-    font-size:20px ;
-    padding-left: 460px;
-    color: rgb(252, 249, 249);
-}
-.head2{
+    padding: 20px;
+    box-sizing: border-box;
     text-align: center;
-    font-size: 35px;
-    padding-top:-80px ;
-    margin-top: -45px;
-    color: rgb(224, 147, 32);
-    margin-left: -450px;
 }
-.form{
-    margin-left: 300px;
-}
-.form form label{
-    font-size: 26px;
-}
-.form .sel{
-    width: 650px;
-    height: 28px;
-}
-.form .sel2{
-    width: 650px;
-    height: 28px;
-    margin-top:-20px;
-    
-}
-.form .sec P{
+
+.head {
     margin-top: 20px;
-    margin-bottom: 0%;
+    font-size: 24px;
+    color: #fef9f9; /* changed to a lighter color */
 }
-.form form .select{
-    margin-top: -25px;
+
+.head2 {
+    font-size: 40px;
+    margin-top: -20px;
+    color: #e09120; /* changed to match the previous color */
+    margin-left: 0; /* removed the negative margin */
 }
-.btn{
-    text-align: center;
-    margin-top: 50px;
+
+.form {
+    margin-left: 20px; /* adjusted margin for responsiveness */
+    margin-right: 20px; /* adjusted margin for responsiveness */
 }
-.btn button{
+
+.form form label {
+    font-size: 20px;
+    color: #1a1818; /* changed to a darker color */
+}
+
+.form .sel,
+.form .sel2 {
+    width: 100%; /* adjusted width for responsiveness */
+    max-width: 650px; /* added max-width for larger screens */
+    height: 38px; /* increased height for better visibility */
+    margin-top: 10px; /* adjusted margin-top for better alignment */
+}
+
+.form .sec p {
+    margin-top: 10px; /* adjusted margin-top for better alignment */
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn button {
     border-radius: 10px;
-    font-size:32px;
-    background-color:rgb(224, 147, 32) ;
+    font-size: 24px;
+    background-color: #e09120; /* changed to match the previous color */
+    color: #0f0c0c; /* changed to a darker color */
+    padding: 10px 20px;
+    cursor: pointer;
 }
-.btn button a{
+
+.btn button a {
     text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(15, 12, 12);
+    color: #0f0c0c; /* changed to match the color of the button text */
 }
-.btn button a:hover{
-    font-size:33px;
+
+.btn button:hover {
+    font-size: 25px; /* adjusted font-size on hover */
 }
-.form form .sub{
-    margin-top: 40px;
-    font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.form form .sub {
+    margin-top: 30px; /* adjusted margin-top for better alignment */
+    font-size: 24px; /* adjusted font-size for better visibility */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -10,7 +10,7 @@ body {
 .main {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to top, rgba(0, 153, 255, 0.8), rgba(255, 204, 0, 0.8));
+    background: linear-gradient(to top, rgba(62, 62, 209, 0.5) 50%, rgb(35, 46, 75) 50%);
     background-position: center;
     background-size: cover;
     padding: 20px;

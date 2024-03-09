@@ -1,0 +1,66 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(62, 62, 209, 0.5)50%,rgb(35, 46, 75))50%;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    padding-top: 55px;
+    font-size:20px ;
+    padding-left: 460px;
+    color: rgb(252, 249, 249);
+}
+.head2{
+    text-align: center;
+    font-size: 35px;
+    padding-top:-80px ;
+    margin-top: -45px;
+    color: rgb(224, 147, 32);
+    margin-left: -450px;
+}
+.form{
+    margin-left: 300px;
+}
+.form form label{
+    font-size: 26px;
+}
+.form .sel{
+    width: 650px;
+    height: 28px;
+}
+.form .sel2{
+    width: 650px;
+    height: 28px;
+    margin-top:-20px;
+    
+}
+.form .sec P{
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+.form form .select{
+    margin-top: -25px;
+}
+.btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn button{
+    border-radius: 10px;
+    font-size:32px;
+    background-color:rgb(224, 147, 32) ;
+}
+.btn button a{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(15, 12, 12);
+}
+.btn button a:hover{
+    font-size:33px;
+}
+.form form .sub{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
